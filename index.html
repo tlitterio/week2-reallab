@@ -55,8 +55,18 @@
       </div>
     </div>
     <h1>Ready to Order?</h1>
-    <!-- Order form goes here -->
-  </div>
+    <form netlify class="py-8"> 
+        <label class="block mt-4 font-bold" for="name">What is your name?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="name" name="name">
+      
+        <label class="block mt-4 font-bold" for="favorite-color">What is your favorite
+        color?</label>
+        <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500
+        focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+      
+        <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Submit form!</button>
+      </form>  </div>
 </body>
 
 </html>
